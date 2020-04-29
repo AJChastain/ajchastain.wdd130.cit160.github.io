@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
 
 :root {
-    --primary-color: #396E94;
-    --secondary-color: #E7C24F;
-    --accent1-color: #A43312;
-    --accent2-color: white;
-    --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif
+    --primary-color: #395B50;
+    --secondary-color: #5A7684;
+    --accent1-color: #92AFD7;
+    --accent2-color: #C5D1EB;
+    --heading-font: "https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap";
+    --paragraph-font: "https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
 }
 
 html {
@@ -47,7 +47,7 @@ header>h1 {
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color:#395B50 ;
     padding: 1em
 }
 
