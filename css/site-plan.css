@@ -5,8 +5,8 @@
     --secondary-color: #5A7684;
     --accent1-color: rgb(216, 100, 120);
     --accent2-color: #C5D1EB;
-    --heading-font: "https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap";
-    --paragraph-font: "https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+    --heading-font: 'Playfair Display SC';
+    --paragraph-font: 'Playfair Display';
 }
 
 html {
