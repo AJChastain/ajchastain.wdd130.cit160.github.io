@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
 
 :root {
-    --primary-color: rgb(1, 110, 124);
+    --primary-color: rgb(17, 23, 114);
     --secondary-color: #5A7684;
     --accent1-color: rgb(216, 100, 120);
     --accent2-color: #C5D1EB;
@@ -46,7 +46,7 @@ header>h1 {
 
 p {
     font-family: var(--paragraph-font);
-    color:rgb(1, 110, 124) ;
+    color:rgb(17, 23, 114) ;
     padding: 1em;
 }
 
