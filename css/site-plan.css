@@ -31,18 +31,17 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color:
 }
 
 header {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background-color:
+    background-color: var(--primary-color)
 }
 
 header>h1 {
-    color:
+    color: var(--secondary-color)
 }
 
 p {
