@@ -68,6 +68,7 @@ p {
 
 .primary {
     background-color: var(--primary-color);
+    color:black;
 }
 
 .secondary {
@@ -105,6 +106,6 @@ nav a:visited {
 }
 
 nav a:hover {
-    color:var(--accent1-color) ;
+    color:var(#5A7684) ;
     background-color:
 }
