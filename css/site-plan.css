@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
 
 :root {
-    --primary-color: rgb(17, 23, 114);
-    --secondary-color: #5A7684;
+    --primary-color: navy;
+    --secondary-color: rgb(161, 161, 240);
     --accent1-color: rgb(216, 100, 120);
-    --accent2-color: #C5D1EB;
+    --accent2-color: rgb(201, 201, 240);
     --heading-font: 'Playfair Display SC';
     --paragraph-font: 'Playfair Display';
 }

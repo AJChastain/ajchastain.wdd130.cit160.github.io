@@ -1,17 +1,38 @@
+:root {
+    --primary-color: navy;
+    --secondary-color: rgb(161, 161, 240);
+    --accent1-color: rgb(216, 100, 120);
+    --accent2-color: rgb(201, 201, 240);
+    --heading-font: 'Playfair Display SC';
+    --paragraph-font: 'Playfair Display';
+}
 body {
     font-size: 16px;
     color: navy;
     font-family: "Playfair Display" , serif;
-    background-color: papayawhip;
-    padding: 3em;
+    background-color: var(--secondary-color);
+    
 }
-
+h1 { 
+    font-size: 48px;
+    
+}
+p {
+    background-color: whitesmoke;
+    margin: 22px;
+    text-align: justify;
+    padding: 18px;
+    
+}
 header {
-
+    padding: 3em;
+    background-color: var(--accent2-color);
+    font-style: italic;
+    
 }
 main {
 
 }
 footer {
-
+    background-color: var(--accent1-color);
 }
