@@ -6,33 +6,45 @@
     --heading-font: 'Playfair Display SC';
     --paragraph-font: 'Playfair Display';
 }
+
 body {
-    font-size: 16px;
+    font-size: 18px;
     color: navy;
-    font-family: "Playfair Display" , serif;
+    font-family: "Playfair Display", serif;
     background-color: var(--secondary-color);
-    
+
 }
-h1 { 
+
+h1 {
     font-size: 48px;
-    
+    font-style: italic;
+
 }
+
 p {
     background-color: whitesmoke;
     margin: 22px;
     text-align: justify;
     padding: 18px;
-    
+
 }
+
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 header {
     padding: 3em;
     background-color: var(--accent2-color);
-    font-style: italic;
     
-}
-main {
 
 }
+
+main {}
+
 footer {
     background-color: var(--accent1-color);
 }
