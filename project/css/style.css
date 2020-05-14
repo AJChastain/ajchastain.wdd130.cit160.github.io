@@ -1,5 +1,5 @@
 :root {
-    --primary-color: navy;
+    --main-color: navy;
     --secondary-color: rgb(161, 161, 240);
     --accent1-color: rgb(216, 100, 120);
     --accent2-color: rgb(201, 201, 240);
@@ -39,7 +39,7 @@ footer {
 header {
     padding: 3em;
     background-color: var(--accent2-color);
-    
+
 
 }
 
