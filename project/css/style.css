@@ -1,10 +1,10 @@
 :root {
-  --primary-color: navy;
-  --secondary-color: rgb(161, 161, 240);
-  --accent1-color: rgb(216, 100, 120);
-  --accent2-color: rgb(201, 201, 240);
-  --heading-font: 'Playfair Display SC';
-  --paragraph-font: 'Playfair Display';
+    --primary-color: navy;
+    --secondary-color: rgb(161, 161, 240);
+    --accent1-color: rgb(216, 100, 120);
+    --accent2-color: rgb(201, 201, 240);
+    --heading-font: 'Playfair Display SC';
+    --paragraph-font: 'Playfair Display';
 }
 
 body {
@@ -43,8 +43,8 @@ header {
 
 }
 
-main {}
 
 footer {
+    padding: 3em;
     background-color: var(--accent1-color);
 }
