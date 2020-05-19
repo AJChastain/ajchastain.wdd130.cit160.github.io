@@ -13,6 +13,8 @@ body {
     color: navy;
     font-family: "Playfair Display", serif;
     background-color: var(--secondary-color);
+    padding: 2;
+    margin: 2;
 
 }
 
@@ -40,6 +42,9 @@ footer {
 header {
     padding: 3em;
     background-color: var(--accent2-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
