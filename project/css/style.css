@@ -45,11 +45,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
-
+.heading {
+    display:flex;
+    flex-direction: column;
+}
 footer {
     padding: 3em;
     background-color: var(--accent1-color);
