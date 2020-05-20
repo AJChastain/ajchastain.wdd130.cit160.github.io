@@ -29,7 +29,7 @@ footer {
 
 header {
     font-family: 'Playfair Display SC', "Goudy Old Style", serif;
-    padding: 3em;
+    padding: 1.5em;
     background-color: var(--secondary-color);
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ header {
     flex-direction: row;
 }
 header > img {
-    width: 100px;
+    width: 50px;
     height: auto;
 }
 
@@ -45,16 +45,29 @@ h1 {
     font-family: "Playfair Display SC","Goudy", serif; 
     font-size: 2rem;
     font-weight: bold;
+    padding: 25px 25px 12.5px 25px;
+    text-align: center;
 }
 a:hover { 
     background-color: beige;
     color: navy;
 }
 
-header nav ul li a {
+header nav ul {
     display: flex;
     align-items: center;
+    list-style: none;
+
+}
+header nav ul li a {
+    text-decoration: none;
+    font-family: "Playfair Display SC", "Goudy", serif;
+    font-size: 1rem;
+    display: block;
+    padding: .45rem;
+    align-items: center;
     flex-direction: row;
+    padding: 25px 25px 12.5px 25px;
 }
 
 header nav ul li {
