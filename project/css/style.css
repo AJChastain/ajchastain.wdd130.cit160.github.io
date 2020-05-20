@@ -46,10 +46,6 @@ a:hover {
     background-color: whitesmoke;
     color: navy;
 
-header nav ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
 
 }
 
@@ -86,13 +82,13 @@ footer {
 
 }
 
-.social {
+.social img{
     width: 100px;
     height: auto;
     text-align: right;
 }
 
-.copyright {
+.copyright p{
     align-content: center;
     text-align: justify;
 }
