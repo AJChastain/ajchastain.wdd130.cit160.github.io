@@ -1,7 +1,6 @@
 :root {
     --primary-color: navy;
     --secondary-color: rgb(161, 161, 240);
-    --accent1-color: rgb(216, 100, 120);
     --accent2-color: rgb(201, 201, 240);
     --heading-font: "Playfair Display SC"; 
     --paragraph-font: 'Playfair Display';
@@ -18,7 +17,7 @@ body {
     font-size: 16px;
     color: navy;
     font-family: 'Playfair Display', 'Goudy Old Style', serif;
-    background-color: var(--secondary-color);
+    background-color: tan;
     padding: 2;
     margin: 2;
 }
@@ -33,7 +32,7 @@ footer {
 header {
     font-family: 'Playfair Display SC', "Goudy Old Style", serif;
     padding: 3em;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -56,7 +55,7 @@ a:hover {
 header nav ul li a {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 
 
 }
@@ -67,7 +66,7 @@ header nav ul li {
 }
 
 p {
-    background-color: whitesmoke;
+    background-color: var(--accent2-color);
     margin: 22px;
     text-align: justify;
     padding: 18px;
@@ -78,7 +77,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 3em;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 
 .contact {
