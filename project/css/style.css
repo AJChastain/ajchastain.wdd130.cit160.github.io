@@ -9,9 +9,9 @@
 }
 
 body {
-    font-size: 18px;
+    font-size: 16px;
     color: navy;
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", "Goudy", serif;
     background-color: var(--secondary-color);
     padding: 2;
     margin: 2;
@@ -45,11 +45,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    border: 1px black;
+
 }
 
-.heading {
-    display:flex;
+nav ul li {
+    display: flex;
+    align-items: center;
     flex-direction: column;
+}
 }
 footer {
     padding: 3em;
