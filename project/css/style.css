@@ -72,7 +72,11 @@ header nav ul li {
     flex: 1 1 auto;
     flex-direction: row;
 }
-
+.bridge {
+    width: 875px;
+    height: auto;
+    align-content: center;
+}
 p {
     background-color: var(--accent2-color);
     margin: 22px;
