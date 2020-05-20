@@ -43,8 +43,8 @@ header {
 
 h1 {
     font-family: "Playfair Display SC","Goudy", serif; 
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 4rem;
+    font-weight: bold;
 }
 a:hover { 
     background-color: beige;
