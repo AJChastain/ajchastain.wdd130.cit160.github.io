@@ -37,12 +37,13 @@ header {
 header img {
     height: auto;
 }
-
 h1 {
-    font-family: "Playfair Display SC","Goudy", serif; 
-    padding: 1rem 1rem .5rem 1rem;
     text-align: center;
 }
+h1, h2, h3, h4, h5 {
+    font-family: "Playfair Display SC","Goudy", serif; 
+    padding: 1rem 1rem .5rem 1rem;
+    }
 a:hover { 
     background-color: beige;
     color: black;
