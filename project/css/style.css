@@ -4,13 +4,11 @@
     --accent2-color: rgb(201, 201, 240);
     --heading-font: "Playfair Display SC"; 
     --paragraph-font: 'Playfair Display';
-
 }
 
 .heading {
     display: flex;
     font: var(--heading-font);
-
 }
 
 body {
@@ -37,7 +35,10 @@ header {
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-
+}
+header > img {
+    width: 100px;
+    height: auto;
 }
 
 h1 {
@@ -48,21 +49,17 @@ h1 {
 a:hover { 
     background-color: beige;
     color: navy;
-
-
 }
 
 header nav ul li a {
     display: flex;
     align-items: center;
     flex-direction: row;
-
-
 }
 
 header nav ul li {
     flex: 1 1 auto;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 p {
@@ -70,7 +67,6 @@ p {
     margin: 22px;
     text-align: justify;
     padding: 18px;
-
 }
 
 footer {
@@ -82,7 +78,6 @@ footer {
 
 .contact {
     text-align: left;
-
 }
 
 .social img{
