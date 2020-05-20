@@ -28,7 +28,7 @@ footer {
 
 header {
     padding: 1.5rem;
-    background-color: var(--secondary-color);
+    background-color: var(--accent2-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
