@@ -3,20 +3,21 @@
     --secondary-color: rgb(161, 161, 240);
     --accent1-color: rgb(216, 100, 120);
     --accent2-color: rgb(201, 201, 240);
-    --heading-font: 'Playfair Display SC';
+    --heading-font: "Playfair Display SC"; 
     --paragraph-font: 'Playfair Display';
 
 }
 
 .heading {
     display: flex;
+    font: var(--heading-font);
 
 }
 
 body {
     font-size: 16px;
     color: navy;
-    font-family: "Playfair Display", "Goudy", serif;
+    font-family: 'Playfair Display', 'Goudy Old Style', serif;
     background-color: var(--secondary-color);
     padding: 2;
     margin: 2;
@@ -30,15 +31,18 @@ footer {
 }
 
 header {
+    font-family: 'Playfair Display SC', "Goudy Old Style", serif;
     padding: 3em;
     background-color: var(--accent2-color);
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
+
 }
 
 h1 {
+    font-family: "Playfair Display SC","Goudy", serif; 
     font-size: 2rem;
     font-style: italic;
 }
