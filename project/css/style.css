@@ -27,7 +27,7 @@ footer {
 }
 
 header {
-    padding: 1.5rem;
+    padding: 0 1.5rem;
     background-color: var(--accent2-color);
     display: flex;
     align-items: center;
@@ -84,7 +84,7 @@ header nav ul li {
 }
 
 .bridge {
-    width: 875px;
+    width: 960px;
     height: auto;
 }
 
@@ -115,4 +115,5 @@ footer {
 .copyright p {
     align-content: center;
     text-align: justify;
+    grid-column: 1/3;
 }
