@@ -2,7 +2,7 @@
     --primary-color: navy;
     --secondary-color: rgb(161, 161, 240);
     --accent2-color: rgb(201, 201, 240);
-    --heading-font: "Playfair Display SC"; 
+    --heading-font: "Playfair Display SC";
     --paragraph-font: 'Playfair Display';
 }
 
@@ -16,7 +16,7 @@ body {
     font-size 16px;
     font-family: 'Playfair Display', 'Goudy Old Style', serif;
     background-color: rgb(212, 186, 153);
-    
+
 }
 
 header,
@@ -34,17 +34,25 @@ header {
     justify-content: space-around;
     flex-direction: row;
 }
+
 header img {
     height: auto;
 }
+
 h1 {
     text-align: center;
 }
-h1, h2, h3, h4, h5 {
-    font-family: "Playfair Display SC","Goudy", serif; 
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Playfair Display SC", "Goudy", serif;
     padding: 1rem 1rem .5rem 1rem;
-    }
-a:hover { 
+}
+
+a:hover {
     background-color: beige;
     color: black;
 }
@@ -55,10 +63,11 @@ header nav ul {
     list-style: none;
 
 }
+
 header nav ul li a {
     text-decoration: none;
     font-family: "Playfair Display", "Goudy Old Style", serif;
-    color:navy;
+    color: navy;
     font-weight: bold;
     font-size: 1rem;
     display: block;
@@ -72,11 +81,12 @@ header nav ul li {
     flex: 1 1 auto;
     flex-direction: row;
 }
+
 .bridge {
     width: 875px;
     height: auto;
-    align-content: center;
 }
+
 p {
     background-color: var(--accent2-color);
     margin: 22px;
@@ -95,13 +105,13 @@ footer {
     text-align: left;
 }
 
-.social img{
+.social img {
     width: 100px;
     height: auto;
     text-align: right;
 }
 
-.copyright p{
+.copyright p {
     align-content: center;
     text-align: justify;
 }
