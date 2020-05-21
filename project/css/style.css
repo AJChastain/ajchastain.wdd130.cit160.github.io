@@ -98,7 +98,7 @@ p {
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 3em;
+    padding: 2em;
     background-color: var(--secondary-color);
 }
 
