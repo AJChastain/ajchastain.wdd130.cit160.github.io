@@ -97,7 +97,7 @@ p {
 
 footer {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: dense repeat(3 1fr);
     padding: 2em;
     background-color: var(--secondary-color);
     
@@ -108,10 +108,10 @@ footer {
 }
 
 .social img {
-    width: 100px;
+    width: 90px;
     height: auto;
-    text-align: right;
-    white-space: pre;
+    text-align:center;
+    object-fit:contain;
 }
 
 .copyright {
