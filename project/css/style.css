@@ -97,13 +97,13 @@ p {
 
 footer {
     display: grid;
-    grid-template-columns: dense repeat(3 1fr);
+    grid-template-columns: repeat(3 1fr);
     padding: 2em;
     background-color: var(--secondary-color);
     
 }
 
-.contact {
+.contact, p{
     text-align: center;
 }
 
