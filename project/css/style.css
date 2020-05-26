@@ -6,9 +6,6 @@
     --paragraph-font: 'Playfair Display';
 }
 
-   
-}
-
 body {
     color: black;
     font-size: 16px;
@@ -31,10 +28,6 @@ header {
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-}
-
-header img {
-    height: auto;
 }
 
 h1 {
@@ -92,26 +85,21 @@ p {
 
 footer {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
     padding: 1.5em;
     background-color: var(--secondary-color);
-    
+    align-content: center;
 }
 
 .contact, p{
     text-align: center;
 }
 
-.social img {
-    width: 90px;
-    height: auto;
+.social {
+    vertical-align: bottom;
     text-align:center;
-    object-fit:contain;
-    padding-bottom: 0;
+    padding-top: 4em;
 }
 
 .copyright {
-    align-content: center;
-    text-align: justify;
     grid-column: 1 / 3;
 }
