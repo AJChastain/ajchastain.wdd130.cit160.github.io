@@ -26,7 +26,6 @@ footer {
 
 header {
     font: var(--heading-font);
-    padding: 0 1.5rem;
     background-color: var(--accent2-color);
     display: flex;
     align-items: center;
@@ -60,6 +59,7 @@ header nav ul {
     align-items: center;
     list-style: none;
     padding: 0;
+    padding-left: 2em;
 
 }
 
@@ -93,7 +93,7 @@ p {
 footer {
     display: grid;
     grid-template-columns: repeat(3 1fr);
-    padding: 2em;
+    padding: 1.5em;
     background-color: var(--secondary-color);
     
 }
@@ -107,6 +107,7 @@ footer {
     height: auto;
     text-align:center;
     object-fit:contain;
+    padding-bottom: 0;
 }
 
 .copyright {
