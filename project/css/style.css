@@ -6,9 +6,7 @@
     --paragraph-font: 'Playfair Display';
 }
 
-.heading {
-    display: flex;
-    font: var(--heading-font);
+   
 }
 
 body {
@@ -27,6 +25,7 @@ footer {
 }
 
 header {
+    font: var(--heading-font);
     padding: 0 1.5rem;
     background-color: var(--accent2-color);
     display: flex;
@@ -49,8 +48,7 @@ h3,
 h4,
 h5 {
     font-family: "Playfair Display SC", "Goudy", serif;
-    padding: 1rem 1rem .5rem 1rem;
-}
+    }
 
 a:hover {
     background-color: beige;
@@ -61,6 +59,7 @@ header nav ul {
     display: flex;
     align-items: center;
     list-style: none;
+    padding: 0;
 
 }
 
@@ -72,15 +71,11 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1rem;
     display: block;
-    padding: .45rem;
-    align-items: center;
-    flex-direction: row;
     padding: 1.25rem 1.25rem;
 }
 
 header nav ul li {
     flex: 1 1 auto;
-    flex-direction: row;
 }
 
 .bridge {
