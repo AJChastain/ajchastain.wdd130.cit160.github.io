@@ -15,7 +15,6 @@ body {
 }
 
 header,
-main,
 footer {
     max-width: 960px;
     margin: 0 auto;
@@ -81,10 +80,17 @@ main {
     grid-gap: 1rem;
     grid-template columns: 1fr 1fr;
     background-color: var(--accent2-color);
-    margin: 0 2em;
+    margin: 0 auto;
+    max-width: 960px;
 
 }
+.yourhome p {
+    grid-column: 1 / 2;
+}
 
+.yourhome img {
+    grid-column: 2 / 3;
+}
 p,
 h2 {
     background-color: var(--accent2-color);
