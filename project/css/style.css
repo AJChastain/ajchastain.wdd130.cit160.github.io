@@ -40,7 +40,7 @@ h3,
 h4,
 h5 {
     font-family: "Playfair Display SC", "Goudy", serif;
-    }
+}
 
 a:hover {
     background-color: beige;
@@ -76,12 +76,21 @@ header nav ul li {
     height: auto;
 }
 
-p {
+main section {
+    display: grid;
+   
     background-color: var(--accent2-color);
-    margin: 22px;
-    text-align: justify;
-    padding: 18px;
 }
+
+p,
+h2 {
+    background-color: var(--accent2-color);
+    margin: 20px;
+    text-align: justify;
+    padding: 12px;
+}
+
+
 
 footer {
     display: grid;
@@ -90,14 +99,16 @@ footer {
     align-content: center;
 }
 
-.contact, p{
+.contact,
+p {
     text-align: center;
 }
 
 .social {
     vertical-align: bottom;
-    text-align:center;
+    text-align: center;
     padding-top: 4em;
+
 }
 
 .copyright {
