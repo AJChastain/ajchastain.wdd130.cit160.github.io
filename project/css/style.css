@@ -76,10 +76,13 @@ header nav ul li {
     height: auto;
 }
 
-main section {
+main {
     display: grid;
-   
+    grid-gap: 1rem;
+    grid-template columns: 1fr 1fr;
     background-color: var(--accent2-color);
+    margin: 0 2em;
+
 }
 
 p,
@@ -89,8 +92,6 @@ h2 {
     text-align: justify;
     padding: 12px;
 }
-
-
 
 footer {
     display: grid;
