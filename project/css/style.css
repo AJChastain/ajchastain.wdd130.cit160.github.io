@@ -117,8 +117,8 @@ main {
     grid-row: 1;
 
 }
-.yourhome>img, 
-.receptions>img {
+.temple, 
+.recephall {
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
