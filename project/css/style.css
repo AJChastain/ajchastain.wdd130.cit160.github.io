@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     font-family: 'Playfair Display', 'Goudy Old Style', serif;
     background-color: rgb(212, 186, 153);
-    max-width: 1060px;
+    width: 1060px;
     margin: 0 0 0 235px;
 }
 
@@ -87,7 +87,6 @@ header nav ul li {
 }
 
 .bridge {
-    
     height: auto;
     position: absolute;
 }
