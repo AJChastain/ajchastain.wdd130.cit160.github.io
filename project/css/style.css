@@ -11,13 +11,12 @@ body {
     font-size: 16px;
     font-family: 'Playfair Display', 'Goudy Old Style', serif;
     background-color: rgb(212, 186, 153);
-    margin: 20px;
-    padding: 40px;
+   
 }
 
 header,
 footer {
-    max-width: 960px;
+    max-width: 1060px;
     margin: 0 auto;
 }
 
@@ -70,8 +69,8 @@ header nav ul {
     display: flex;
     align-items: center;
     list-style: none;
-    padding: 0;
-    padding-left: 2em;
+    padding: 0 0 0 2em;
+
 }
 
 header nav ul li a {
@@ -98,20 +97,17 @@ header nav ul li {
 main {
     background-color: var(--accent2-color);
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1060px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 450px 450px;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    position: relative;
+    
 
 }
-.yourhome {
-    position: relative;
-    top: 125px;
-}
+
 .yourhome p {
     grid-column: 1;
     grid-row: 1;
@@ -122,6 +118,8 @@ main {
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
+    width: 100%;
+    height: auto;
 }
 .yourhome>img {
     grid-column: 2;
