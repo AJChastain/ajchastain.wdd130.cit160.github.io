@@ -84,6 +84,7 @@ header nav ul li {
 .bridge {
     display: flex;
     position: absolute;
+    width: 1060px;
 }
 
 main {
