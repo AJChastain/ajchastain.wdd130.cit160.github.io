@@ -145,6 +145,7 @@ h2 {
 
 footer {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 1.5em;
     background-color: var(--secondary-color);
     align-content: center;
