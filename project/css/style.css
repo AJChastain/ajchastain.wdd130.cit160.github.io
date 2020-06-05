@@ -87,7 +87,7 @@ header nav ul li {
 }
 
 .bridge {
-    height: auto;
+    display: flex;
     position: absolute;
 }
 
