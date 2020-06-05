@@ -12,14 +12,10 @@ body {
     font-family: 'Playfair Display', 'Goudy Old Style', serif;
     background-color: rgb(212, 186, 153);
     width: 1060px;
-    margin: 0 0 0 235px;
+    
 }
 
-header,
-footer {
-    
-    margin: 0 auto;
-}
+
 
 header {
     font: var(--heading-font);
