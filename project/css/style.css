@@ -3,7 +3,7 @@
     --secondary-color: rgb(161, 161, 240);
     --accent2-color: rgb(201, 201, 240);
     --heading-font: "Playfair Display SC";
-    --paragraph-font: 'Playfair Display';
+    --paragraph-font: "Playfair Display";
 }
 
 body {
@@ -47,9 +47,6 @@ header {
     margin-bottom: 15px;
 }
 
-h1 {
-    text-align: center;
-}
 
 h1,
 h2,
@@ -96,9 +93,9 @@ header nav ul li {
 
 main {
     background-color: var(--accent2-color);
-    margin: 0 auto;
+
     max-width: 1060px;
-    
+
 }
 
 .grid {
@@ -113,18 +110,20 @@ main {
     grid-row: 1;
 
 }
-.temple, 
+
+.temple,
 .recephall {
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
-    width: 100%;
+    width: 90%;
     height: auto;
 }
+
 .yourhome>img {
     grid-column: 2;
     grid-row: 1;
-    
+
 }
 
 .receptions>p {
