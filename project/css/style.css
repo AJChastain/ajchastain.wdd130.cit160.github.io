@@ -94,8 +94,6 @@ header nav ul li {
 main {
     background-color: var(--accent2-color);
 
-    max-width: 1060px;
-
 }
 
 .grid {
