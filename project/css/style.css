@@ -87,7 +87,7 @@ header nav ul li {
 }
 
 .bridge {
-    
+    width: 1060px;
     height: auto;
     position: absolute;
 }
@@ -153,6 +153,7 @@ footer {
     padding: 1.5em;
     background-color: var(--secondary-color);
     align-content: center;
+    
 }
 
 .contact p{
@@ -166,5 +167,5 @@ footer {
 
 .copyright {
     grid-column: 1 / 3;
-    text-align: center;
+    
 }
