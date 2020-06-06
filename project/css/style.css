@@ -47,8 +47,7 @@ header {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
     font-family: "Playfair Display SC", "Goudy", serif;
     text-align: center;
 }
@@ -135,8 +134,7 @@ main {
     grid-column: 1 / -1;
 }
 
-p,
-h2 {
+p {
     background-color: var(--accent2-color);
     margin: 20px;
     text-align: justify;
@@ -152,8 +150,9 @@ footer {
 }
 
 .contact p {
-    text-align: center;
-}
+    text-align: justify;
+    padding-left: 80px;
+}   
 
 .social {
     text-align: center;
