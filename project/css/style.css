@@ -101,7 +101,7 @@ main {
 .yourhome p {
     grid-column: 1;
     grid-row: 1;
-    
+
 }
 
 .temple,
@@ -147,12 +147,13 @@ footer {
     padding: 1.5em;
     background-color: var(--secondary-color);
     align-content: center;
+
 }
 
 .contact p {
     text-align: justify;
     padding-left: 80px;
-}   
+}
 
 .social {
     text-align: center;
@@ -161,8 +162,9 @@ footer {
 
 .copyright {
     grid-column: 1 / 3;
-    
+
 }
+
 .copyright p {
     text-align: center;
 }
