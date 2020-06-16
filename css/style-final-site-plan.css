@@ -1,12 +1,10 @@
-
-
 :root {
     --primary-color: #78503C;
     --secondary-color: #9F6C50;
     --accent1-color: #E8D171;
-    --accent2-color: #FFF300;
+    --accent2-color: #fff8dc;
     --accent3-color: #AE1E3D;
-    --heading-font: "Chocolate Box";
+    --heading-font: "Chocolate Box", "Harrington", serif;
     --paragraph-font: "Charrington", Georgia, serif;
 }
 
@@ -17,7 +15,7 @@ html {
 body {
     max-width: 960px;
     margin: 0 auto;
-    background-color: var(--accent1-color);
+    background-color: cornsilk;
     padding: 1.5em
 }
 
@@ -38,14 +36,15 @@ h6 {
 header {
     padding: 1em;
     text-align: center;
-    color: var(--accent2-color);
-    background-color:var(--primary-color);
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 
 
 p {
     font-family: var(--paragraph-font);
-    padding: 1em
+    padding: 1em;
+    font-size: 18px;
 }
 
 .primary {
