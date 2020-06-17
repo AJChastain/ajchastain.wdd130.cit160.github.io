@@ -3,8 +3,8 @@
     --secondary-color: #9F6C50;
     --accent1-color: #E8D171;
     --accent2-color: #fff8dc;
-    --accent3-color: #AE1E3D;
-    --heading-font: "Chocolate Box", "Harrington", serif;
+    --accent3-color: #771647;
+    --heading-font: "ChocolateBox", "Harrington", serif;
     --paragraph-font: "Charrington", Georgia, serif;
 }
 
@@ -30,7 +30,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--var(--accent2-color));
 }
 
 header {
@@ -45,6 +45,7 @@ p {
     font-family: var(--paragraph-font);
     padding: 1em;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .primary {
