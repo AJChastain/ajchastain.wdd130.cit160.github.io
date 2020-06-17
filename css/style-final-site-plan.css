@@ -103,14 +103,8 @@ nav a:visited {
     color: var(--accent1-color);
 }
 
-nav a:hover {
-    color: ;
-    background-color:
-}
-
 footer {
     font-family: var(--paragraph-font);
     font-weight: bold;
     text-align: center;
-
 }
