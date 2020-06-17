@@ -50,10 +50,12 @@ p {
 }
 
 .primary {
+    color:white;
     background-color: var(--primary-color)
 }
 
 .secondary {
+    color:white;
     background-color: var(--secondary-color)
 }
 
@@ -62,7 +64,13 @@ p {
 }
 
 .accent2 {
+    border: black solid .75px;
     background-color: var(--accent2-color)
+    
+}
+.accent3 {
+    color:white;
+    background-color: var(--accent3-color)
 }
 
 nav {
