@@ -21,7 +21,9 @@ body {
 
 img {
     max-width: 150px;
+    border: solid black 2px;
     background-color: var(--accent3-color)
+   
 }
 
 h1,
@@ -31,7 +33,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: var(--var(--accent2-color));
+    color: var(--accent2-color);
 }
 
 header {
