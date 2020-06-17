@@ -52,12 +52,12 @@ p {
 }
 
 .primary {
-    color:white;
+    color: white;
     background-color: var(--primary-color)
 }
 
 .secondary {
-    color:white;
+    color: white;
     background-color: var(--secondary-color)
 }
 
@@ -68,18 +68,19 @@ p {
 .accent2 {
     border: black solid .75px;
     background-color: var(--accent2-color)
-    
 }
+
 .accent3 {
-    color:white;
+    color: white;
     background-color: var(--accent3-color)
 }
 
 nav {
-    background-color: ;
+    background-color: var(--secondary-color);
     line-height: 3em;
     text-align: center;
-    font-size: 1.2em
+    font-size: 1.25em;
+
 }
 
 nav>ul {
@@ -88,22 +89,28 @@ nav>ul {
 }
 
 nav a {
+    color: white;
     padding: 1em;
     min-width: 70px
 }
 
-nav a:link,
+nav a:hover {
+    background-color: var(--accent1-color);
+    color: var(--primary-color)
+}
+
 nav a:visited {
-    color:
+    color: var(--accent1-color);
 }
 
 nav a:hover {
     color: ;
     background-color:
 }
+
 footer {
     font-family: var(--paragraph-font);
     font-weight: bold;
     text-align: center;
-    
+
 }
