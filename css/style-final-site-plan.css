@@ -92,10 +92,10 @@ nav {
     text-align: center;
     font-size: 1.25em;
     border: solid black 1.5px;
-
 }
 
 nav>ul {
+    font-family: var(--heading-font);
     list-style-type: none;
     display: flex
 }
