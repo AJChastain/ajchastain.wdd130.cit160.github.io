@@ -129,7 +129,7 @@ main {
     border: 1px solid #ccc;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
-    width: 40%;
+    width: 90%;
     height: auto;
     }
 
@@ -138,10 +138,13 @@ main {
     grid-row: 1;
 
 }
-
+.receptions {
+    background-color: var(--secondary-color);
+}
 .receptions>p {
     grid-column: 2;
     grid-row: 2;
+    
 }
 
 .receptions>img {
