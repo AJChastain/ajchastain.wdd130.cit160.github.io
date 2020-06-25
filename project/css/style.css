@@ -98,7 +98,7 @@ main {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
+    grid-gap: .5rem;
     margin-top: 200px;
 }
 .grid2 {
@@ -118,19 +118,18 @@ main {
 }
 .temple,
 .recephall {
-    border: 1px solid #ccc;
-    margin: 15px 5px 0px;
+    border: 2px solid var(--secondary-color);
+    margin: 15px 0px;
     padding: 10px;
     box-shadow: 5px 5px 5px #999;
-    width: 92%;
+    width: 500px;
     height: auto;
 }
 .pool {
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-shadow: 5px 5px 5px #999;
-    width: 90%;
-    height: auto;
+    border: 2px solid var(--secondary-color);
+    padding: 0px;
+    box-shadow: 0px 5px 5px #999;
+    width: 520px;
     }
 
 .yourhome>img {
@@ -140,6 +139,8 @@ main {
 }
 .receptions {
     background-color: var(--secondary-color);
+    height: 356px;
+    margin-top: 15px;
 }
 .receptions>p {
     grid-column: 2;
