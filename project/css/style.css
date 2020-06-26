@@ -181,7 +181,10 @@ footer {
 
 .social {
     text-align: center;
-    padding-top: 3em;
+    padding-top: 5em;
+    }
+.social img{
+    width: 15%;
 }
 
 .copyright {
