@@ -32,9 +32,19 @@
     </header>
     <main>
         <h1 class="title">Make your reservations here!</h1>
-        <label for="title">Location</label>
+        <label for="location">Location</label>
 
         <select name="location" id="location">
+            <option value="oakland">Oakland, CA</option>
+            <option value="sandiego">San Diego, CA</option>
+            <option value="provo">Provo, UT</option>
+            <option value="rexburg">Rexburg, ID</option>
+            <option value="abq">Albuquerque, NM</option>
+        </select>
+
+        <h2 class="title">What are you reserving?</h2>
+        <label for="reservation type">Select reservation type</label>
+        <select name="restype" id="restype">
             <option value="room1q">Room with one queen bed</option>
             <option value="room2q">Room with two queen beds</option>
             <option value="room1k">Room with one king bed</option>
@@ -44,18 +54,24 @@
             <option value="caterkit">Catering and kitchen</option>
         </select>
 
-        <h2 class="title">What are you reserving?</h2>
         <h2 class="title">Desired dates</h2>
+        <label for="date">Select date range</label>
+        <input type="date" id="desired dates" name="desired dates">
+
+        <h2 class="title">Personal Information</h2>
         <form action="reservations-management" method="post">
-            <label for="name">Name</label>
-            <label for="address">Street address</label>
-            <label for="city-state">City, state</label>
-            <label for="phone">Phone</label>
-            <label for="email">Email</label>
-            <label for="cardnumber">Card number</label>
-            <label for="exp">Expiration</label>
-            <label for="cvv">CVV</label>
+            <ul>
+                <li class="form"><label for="name">Name</label>
+                    <input type="text" id="name" name="user name"></li>
+                <li class="form"><label for="address">Street address</label></li>
+                <li class="form"><label for="city-state">City, state</label></li>
+                <li class="form"><label for="phone">Phone</label></li>
+                <li class="form"><label for="email">Email</label></li>
+                <li class="form"><label for="cardnumber">Card number</label></li>
+                <li class="form"><label for="exp">Expiration</label><<label for="cvv">CVV</label></li>
+            </ul>
         </form>
+       
     </main>
 
     <footer>

@@ -192,3 +192,9 @@ footer {
 .copyright p {
     text-align: center;
 }
+
+.form {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: right;
+}
