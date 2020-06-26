@@ -239,3 +239,8 @@ select {
     background-color: var(--primary-color);
     color: white;
   }
+  .spotlight {
+    display: flex;
+    position: relative;
+    width: 1060px;
+}
