@@ -207,8 +207,13 @@ footer {
 }
 .form li{
     grid-column: 1 / 3;
-    text-align: right;
+    
 }
+.form label {
+    text-align: right;
+    margin-right: 20px;
+}
+
 .form input {
     grid-column: 2 / 3;
     align-content: left;
@@ -223,5 +228,8 @@ button {
     border: 2px solid var(--primary-color);
     border-radius: 8px;
     font: 24px bold;
-
+}
+select {
+    width: fit-content;
+    margin: 7px auto 7px 5px;
 }

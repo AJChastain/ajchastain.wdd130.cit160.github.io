@@ -32,55 +32,62 @@
     </header>
     <main>
         <div class="reservations">
-        <h1 class="title">Make your reservations here!</h1>
-        <label for="location">Location</label>
-        <select name="location" id="location">
-            <option value="oakland">Oakland, CA</option>
-            <option value="san diego">San Diego, CA</option>
-            <option value="provo">Provo, UT</option>
-            <option value="rexburg">Rexburg, ID</option>
-            <option value="abq">Albuquerque, NM</option>
-        </select>
+            <h1 class="title">Make your reservations here!</h1>
+            <label for="location">Location</label>
+            <select name="location" id="location">
+                <option value="oakland">Oakland, CA</option>
+                <option value="san diego">San Diego, CA</option>
+                <option value="provo">Provo, UT</option>
+                <option value="rexburg">Rexburg, ID</option>
+                <option value="abq">Albuquerque, NM</option>
+            </select>
 
-        <h2 class="title">What are you reserving?</h2>
-        <label for="reservation type">Select reservation type</label>
-        <select name="restype" id="restype">
-            <option value="room1q">Room with one queen bed</option>
-            <option value="room2q">Room with two queen beds</option>
-            <option value="room1k">Room with one king bed</option>
-            <option value="famsuite">Family suite</option>
-            <option value="kitsuite">Kitchenette suite</option>
-            <option value="recepthall">Reception hall</option>
-            <option value="caterkit">Catering and kitchen</option>
-        </select>
+            <h2 class="title">What are you reserving?</h2>
+            <label for="reservation type">Select reservation type</label>
+            <select name="reservation-type" id="reservation-type">
+                <option value="room1q">Room with one queen bed</option>
+                <option value="room2q">Room with two queen beds</option>
+                <option value="room1k">Room with one king bed</option>
+                <option value="famsuite">Family suite</option>
+                <option value="kitsuite">Kitchenette suite</option>
+                <option value="recepthall">Reception hall</option>
+                <option value="caterkit">Catering and kitchen</option>
+            </select>
 
-        <h2 class="title">Desired dates</h2>
-        <label for="date">Select date range</label>
-        <input type="date" id="desired dates" name="desired dates">
+            <h2 class="title">Desired dates</h2>
+            <label for="date">Select date range</label>
+            <input type="date" id="desired dates" name="desired dates">
 
-        <h2 class="title">Personal Information</h2>
-        <form action="reservations-management" method="post">
-            <ul>
-                <li class="form"><label for="name">Name</label>
-                    <input type="text" id="name" name="user name"></li>
-                <li class="form"><label for="address">Street address</label>
-                    <input type="text" id="address" name="address"></li>
-                <li class="form"><label for="city-state">City, state</label>
-                    <input type="text" id="city-state" name="city-state"></li>
-                <li class="form"><label for="phone">Phone</label>
-                    <input type="number" id="phone" name="phone"></li>
-                <li class="form"><label for="email">Email</label>
-                    <input type="text" id="email" name="email"></li>
-                <li class="form"><label for="card-number">Card number</label>
-                    <input type="number" id="card-number" name="card-number"></li>
-                <li class="form"><label for="exp">Expiration</label>
-                    <input type="date" id="expiration" name="expiration">
-                    <label for="cvv">CVV</label>
-                    <input type="number" id="cvv" name="cvv"></li>
-            </ul>
-        </form>
-        <button type="submit">Reserve Now!</button>
-    </div>
+            <h2 class="title">Personal Information</h2>
+            <form action="reservations-management" method="post">
+                <ul>
+                    <li class="form"><label for="name">Name</label>
+                        <input type="text" id="name" name="user name"></li>
+                    <li class="form"><label for="address">Street address</label>
+                        <input type="text" id="address" name="address"></li>
+                    <li class="form"><label for="city-state">City, state</label>
+                        <input type="text" id="city-state" name="city-state"></li>
+                    <li class="form"><label for="phone">Phone</label>
+                        <input type="number" id="phone" name="phone"></li>
+                    <li class="form"><label for="email">Email</label>
+                        <input type="text" id="email" name="email"></li>
+                    <li class="form" label for="card-type">Select card type</label>
+                        <select name="card-type" id="card-type">
+                            <option value="visa">Visa</option>
+                            <option value="mc">MasterCard</option>
+                            <option value="amex">American Express</option>
+                            </select>
+                    </li>
+                    <li class="form"><label for="card-number">Card number</label>
+                        <input type="number" id="card-number" name="card-number"></li>
+                    <li class="form"><label for="exp">Expiration</label>
+                        <input type="date" id="expiration" name="expiration">
+                        <label for="cvv">CVV</label>
+                        <input type="number" id="cvv" name="cvv"></li>
+                </ul>
+            </form>
+            <button type="submit" class="action">Reserve Now!</button>
+        </div>
     </main>
 
     <footer>
