@@ -226,7 +226,6 @@ select {
     margin: 7px auto 7px 5px;
 }
 .action2 button {
-    line-height: 2em;
     background-color: wheat;
     color: var(--primary-color);
     margin: 16px 0px 24px 400px;
