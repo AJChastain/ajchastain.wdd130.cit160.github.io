@@ -31,12 +31,12 @@
         </nav>
     </header>
     <main>
+        <div class="reservations">
         <h1 class="title">Make your reservations here!</h1>
         <label for="location">Location</label>
-
         <select name="location" id="location">
             <option value="oakland">Oakland, CA</option>
-            <option value="sandiego">San Diego, CA</option>
+            <option value="san diego">San Diego, CA</option>
             <option value="provo">Provo, UT</option>
             <option value="rexburg">Rexburg, ID</option>
             <option value="abq">Albuquerque, NM</option>
@@ -63,15 +63,23 @@
             <ul>
                 <li class="form"><label for="name">Name</label>
                     <input type="text" id="name" name="user name"></li>
-                <li class="form"><label for="address">Street address</label></li>
-                <li class="form"><label for="city-state">City, state</label></li>
-                <li class="form"><label for="phone">Phone</label></li>
-                <li class="form"><label for="email">Email</label></li>
-                <li class="form"><label for="cardnumber">Card number</label></li>
-                <li class="form"><label for="exp">Expiration</label><<label for="cvv">CVV</label></li>
+                <li class="form"><label for="address">Street address</label>
+                    <input type="text" id="address" name="address"></li>
+                <li class="form"><label for="city-state">City, state</label>
+                    <input type="text" id="city-state" name="city-state"></li>
+                <li class="form"><label for="phone">Phone</label>
+                    <input type="number" id="phone" name="phone"></li>
+                <li class="form"><label for="email">Email</label>
+                    <input type="text" id="email" name="email"></li>
+                <li class="form"><label for="card-number">Card number</label>
+                    <input type="number" id="card-number" name="card-number"></li>
+                <li class="form"><label for="exp">Expiration</label>
+                    <input type="date" id="expiration" name="expiration">
+                    <label for="cvv">CVV</label>
+                    <input type="number" id="cvv" name="cvv"></li>
             </ul>
         </form>
-       
+    </div>
     </main>
 
     <footer>
