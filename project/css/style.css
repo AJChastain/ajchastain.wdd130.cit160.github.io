@@ -196,11 +196,12 @@ footer {
 .reservations {
     width: 650px;
     background-color: var(--secondary-color);
-    border: 2px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     border-radius: 8px;
     margin: 16px auto 6px auto;
     text-align: center;
     font-weight: bold;
+    box-shadow: grey 0px 4px 4px 0px;
 }
 .form {
     display: grid;
@@ -231,7 +232,7 @@ select {
     margin: 16px 0px 24px 400px;
     width: 260px;
     padding: 16px;
-    border: 2px solid var(--primary-color);
+    border: 3px solid var(--primary-color);
     border-radius: 8px;
     font: 24px bold;
 }
