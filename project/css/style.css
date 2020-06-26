@@ -198,7 +198,7 @@ footer {
     background-color: var(--secondary-color);
     border: 2px solid var(--primary-color);
     border-radius: 8px;
-    margin: 0 auto 6px auto;
+    margin: 16px auto 6px auto;
     text-align: center;
 }
 .form {
@@ -219,17 +219,23 @@ footer {
     align-content: left;
     margin: 5px 25px 5px 5px;
 }
-button {
-    grid-column: 2 / 3;
-    margin: 10px 1px;
-    width: 260px;
-    padding: 5px;
-    background-color: var(--secondary-color);
-    border: 2px solid var(--primary-color);
-    border-radius: 8px;
-    font: 24px bold;
-}
+
 select {
     width: fit-content;
     margin: 7px auto 7px 5px;
 }
+.action2 button {
+    line-height: 2em;
+    background-color: wheat;
+    color: var(--primary-color);
+    margin: 16px 0px 24px 400px;
+    width: 260px;
+    padding: 16px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    font: 24px bold;
+}
+.action2 button:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
