@@ -85,6 +85,10 @@ p {
     text-align: center;
     align-content: center;
 }
+.wireframes {
+    background-color:white;
+    width: 400px;
+}
 nav {
     background-color: var(--secondary-color);
     line-height: 3em;
