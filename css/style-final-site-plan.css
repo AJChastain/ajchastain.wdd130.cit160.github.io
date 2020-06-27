@@ -122,4 +122,7 @@ footer {
     font-family: var(--paragraph-font);
     font-weight: bold;
     text-align: center;
+    padding: 25px;
+    border: 2px solid #78503C;
+    margin:25px 0px;
 }
