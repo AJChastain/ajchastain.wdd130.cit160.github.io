@@ -87,7 +87,7 @@ p {
 }
 .wireframes {
     background-color:white;
-    width: 400px;
+    max-width: 450px;
 }
 nav {
     background-color: var(--secondary-color);
