@@ -5,8 +5,7 @@
     --accent2-color: #fff8dc;
     --accent3-color: #771647;
     --heading-font: "ChocolateBox", "Harrington", serif;
-    --paragraph-font: "Charrington", Georgia, serif;
-}
+    --paragraph-font: "Charrington", Georgia, serif;}
 
 html {
     background-color: var(--accent3-color)
