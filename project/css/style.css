@@ -209,6 +209,12 @@ footer {
     display: grid;
     grid-template-columns: 140px 1fr;
 }
+.form2 {
+    display: grid;
+    grid-template-columns: 140px 1fr 75px 1fr;
+    margin: 7px 90px 0px 5px;
+    text-align: center;
+}
 .form li{
     grid-column: 1 / 3;   
 }
