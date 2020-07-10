@@ -179,7 +179,8 @@ button:hover {
 
 ul.instruct {
     font: var(--paragraph-font);
-    list-style-image: url('images/dabombcookie-sm.png');
+    list-style-type: circle;
+    list-style-image: url("dabombcookie-sm.gif");
 }
 
 footer {
