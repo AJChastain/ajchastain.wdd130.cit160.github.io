@@ -119,16 +119,20 @@ p {
     background-color: white;
     max-width: 450px;
 }
-.action {
-    display: grid;
-    grid-template-columns: 1fr 250px;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-items: center;
+.search {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#recipe-search {
+    height: 34px;
+    width: 400px;
+    
+
 }
 .img-wide {
-    grid-column: 2 / 3;
-    grid-row: 1 / 4;
     max-width: 250px;
+    position: relative;
 }
 nav {
     background-color: var(--secondary-color);
@@ -160,7 +164,15 @@ nav a:visited {
     color: black;
 }
 
-
+button {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+button:hover {
+    background-color: #e8d171;
+    color: #78503c;
+}
 footer {
     font-family: var(--paragraph-font);
     font-weight: bold;
