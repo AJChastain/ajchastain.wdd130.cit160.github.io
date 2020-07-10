@@ -47,9 +47,9 @@ header {
 
 .header {
     display: grid;
-    grid-template-rows: 1fr 1fr;
     grid-template-columns: 150px 1fr 150px;
     justify-content: center;
+    margin: 25px 10px;
 }
 
 .cookie1 {
