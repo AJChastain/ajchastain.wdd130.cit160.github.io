@@ -119,21 +119,25 @@ p {
     background-color: white;
     max-width: 450px;
 }
+
 .search {
     display: flex;
     flex-direction: column;
     position: relative;
 }
+
 #recipe-search {
     height: 34px;
     width: 400px;
-    
+
 
 }
+
 .img-wide {
     max-width: 250px;
     position: relative;
 }
+
 nav {
     background-color: var(--secondary-color);
     line-height: 2em;
@@ -169,10 +173,17 @@ button {
     padding: 10px;
     position: relative;
 }
+
 button:hover {
     background-color: #e8d171;
     color: #78503c;
 }
+
+li.instruct {
+    font: var(--paragraph-font);
+    list-style-image: url('dabombcookie-sm.png');
+}
+
 footer {
     font-family: var(--paragraph-font);
     font-weight: bold;
