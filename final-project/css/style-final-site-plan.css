@@ -129,8 +129,6 @@ p {
 #recipe-search {
     height: 34px;
     width: 400px;
-
-
 }
 
 .img-wide {
@@ -179,9 +177,9 @@ button:hover {
     color: #78503c;
 }
 
-li.instruct {
+ul.instruct {
     font: var(--paragraph-font);
-    list-style-image: url('dabombcookie-sm.png');
+    list-style-image: url('images/dabombcookie-sm.png');
 }
 
 footer {
