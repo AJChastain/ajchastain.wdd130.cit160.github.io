@@ -119,7 +119,17 @@ p {
     background-color: white;
     max-width: 450px;
 }
-
+.action {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.img-wide {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    max-width: 250px;
+}
 nav {
     background-color: var(--secondary-color);
     line-height: 2em;
@@ -149,6 +159,7 @@ nav a:hover {
 nav a:visited {
     color: black;
 }
+
 
 footer {
     font-family: var(--paragraph-font);
