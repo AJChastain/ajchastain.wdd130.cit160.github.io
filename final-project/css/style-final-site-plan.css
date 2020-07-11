@@ -178,8 +178,10 @@ button:hover {
 }
 
 ul.instruct {
-    font: var(--paragraph-font);
-    list-style-type: none;
+    font-family: var(--paragraph-font);
+    font-size: 19px;
+    font-weight:
+    list-style: #78503c;
     
 }
 
