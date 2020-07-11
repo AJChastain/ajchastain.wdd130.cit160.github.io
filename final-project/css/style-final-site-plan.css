@@ -180,10 +180,18 @@ button:hover {
 ul.instruct {
     font-family: var(--paragraph-font);
     font-size: 19px;
-    font-weight:
-    list-style: #78503c;
-    
-}
+    font-weight: bold;
+    list-style-image: url("/images/dabombcookie-sm.png");
+  }
+ form  {
+     display: grid;
+     grid-template-columns: 140px 1fr;
+     line-height: 26px;
+     padding: 12px;
+ }
+ form> input {
+    margin:10px;
+ }
 
 footer {
     font-family: var(--paragraph-font);
