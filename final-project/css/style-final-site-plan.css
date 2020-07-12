@@ -18,7 +18,10 @@ body {
     background-color: cornsilk;
     padding: 1.5em;
 }
-
+.top-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 img {
     max-width: 150px;
     border: solid black 2px;
@@ -177,10 +180,9 @@ button:hover {
     color: #78503c;
 }
 
-ul.instruct {
+ul {
     font-family: var(--paragraph-font);
     font-size: 19px;
-    font-weight: bold;
     list-style-image: url("/images/dabombcookie-sm.png");
   }
  form  {
@@ -188,10 +190,17 @@ ul.instruct {
      grid-template-columns: 140px 1fr;
      line-height: 26px;
      padding: 12px;
- }
+     font-family: var(--paragraph-font);
+     font-weight: bold;
+ } 
+ form> label {
+    margin: 10px 0px 0px 10px;
+ }   
+ 
  form> input {
-    margin:10px;
+    margin:10px 0px;
  }
+
 
 footer {
     font-family: var(--paragraph-font);
