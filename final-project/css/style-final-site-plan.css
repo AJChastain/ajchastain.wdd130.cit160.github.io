@@ -19,9 +19,8 @@ body {
     padding: 1.5em;
 }
 
-.top-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.recipe {
+    grid-column: 1 / 2;
 }
 
 img {
@@ -29,8 +28,11 @@ img {
     border: solid black 2px;
     background-color: var(--accent3-color);
     box-shadow: grey 0px 3px 3px 2px;
+    justify-content: center;
 }
-
+main>img {
+    grid-column: 2 / 3;
+}
 h1,
 h2,
 h3,
@@ -58,7 +60,10 @@ header {
 .header {
     flex: 2;
 }
-
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
 p {
     font-family: var(--paragraph-font);
     padding: 1em;
