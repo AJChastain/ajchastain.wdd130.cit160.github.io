@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    max-width: 960px;
+    width: 1060px;
     margin: 0 auto;
     background-color: cornsilk;
     padding: 1.5em;
@@ -25,7 +25,7 @@ body {
 }
 
 img {
-    max-width: 150px;
+    max-width: 175px;
     border: solid black 2px;
     background-color: var(--accent3-color);
     box-shadow: grey 0px 3px 3px 2px;
@@ -38,40 +38,25 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-
 }
 
 header {
-    padding: 1em;
+
     text-align: center;
     color: var(--accent1-color);
     background-color: var(--primary-color);
     border: black solid 2px;
     box-shadow: grey 0px 3px 3px 2px;
-    }
-
-.header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
-    margin: 20px;
+    margin: 0px  20px 20px;
     
-}
+  }
 
-.cookie {
-    position: relative;
-}
-
-
-h1.header {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-
-h2.header {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+.header {
+    flex: 2;
 }
 
 p {
