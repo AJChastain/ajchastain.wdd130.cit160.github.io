@@ -185,16 +185,19 @@ ul {
 }
 
 form {
-    display: grid;
-
+    margin: 0 auto;
+    width: 900px;
     line-height: 26px;
+    padding: 1em;
+    border: 1px solid #771647;
+    border-radius: 1em;
     font-family: var(--paragraph-font);
     font-weight: bold;
 }
 
 form ul {
     list-style: none;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 22048px 2px;
   }
 
 form ul li input {
