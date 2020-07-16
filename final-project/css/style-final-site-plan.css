@@ -197,14 +197,13 @@ form {
 
 form ul {
     list-style: none;
+    padding: none;
     margin: 10px 0px 2px 2px;
   }
 
-form ul li input {
-
-    max-width: 1060px;
-    resize: vertical;
-    
+form ul li input, textarea {
+    width: 850px;
+    resize: vertical; 
 }
 
 .search {
