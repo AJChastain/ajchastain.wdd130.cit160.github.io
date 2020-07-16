@@ -158,14 +158,17 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--accent1-color);
-    color: var(--primary-color)
+    background-color: #e8d171;
+    color: #78503C;
 }
 
 nav a:visited {
     color: #fff8dc;
 }
-
+nav a:visited:hover {
+    background-color: #e8d171;
+    color: #78503C;
+}
 button {
     margin: 10px;
     padding: 10px;
