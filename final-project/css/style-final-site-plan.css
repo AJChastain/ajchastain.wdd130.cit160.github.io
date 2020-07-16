@@ -44,7 +44,6 @@ h6 {
 }
 
 header {
-
     text-align: center;
     color: var(--accent1-color);
     background-color: var(--primary-color);
@@ -58,8 +57,9 @@ header {
 
 }
 
-.header {
-    flex: 2;
+.heading {
+    flex-direction: rows;
+    margin: auto 160px;
 }
 
 main {
