@@ -43,10 +43,11 @@ header {
     font-size: 1.2em;
     margin-bottom: 15px;
 }
+
 .action button:hover {
     background-color: var(--primary-color);
     color: white;
-  }
+}
 
 h1,
 h2,
@@ -101,6 +102,7 @@ main {
     grid-gap: .5rem;
     margin-top: 200px;
 }
+
 .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -112,10 +114,12 @@ main {
     grid-column: 1;
     grid-row: 1;
 }
+
 .title {
     padding: 30px 0px 30px 0px;
-    background-color:var(--secondary-color);
+    background-color: var(--secondary-color);
 }
+
 .temple,
 .recephall {
     border: 2px solid var(--secondary-color);
@@ -125,28 +129,31 @@ main {
     width: 500px;
     height: auto;
 }
+
 .pool {
     border: 2px solid var(--secondary-color);
     margin-top: 12px;
     margin-left: 8px;
     box-shadow: 0px 5px 5px #999;
     height: 356px;
-    }
+}
 
 .yourhome>img {
     grid-column: 2;
     grid-row: 1;
 
 }
+
 .receptions {
     background-color: var(--secondary-color);
     height: 356px;
     margin-top: 15px;
 }
+
 .receptions>p {
     grid-column: 2;
     grid-row: 2;
-  }
+}
 
 .receptions>img {
     grid-column: 1;
@@ -181,8 +188,9 @@ footer {
 .social {
     text-align: center;
     padding-top: 5em;
-    }
-.social img{
+}
+
+.social img {
     width: 15%;
 }
 
@@ -205,19 +213,23 @@ footer {
     font-weight: bold;
     box-shadow: grey 0px 4px 4px 0px;
 }
+
 .form {
     display: grid;
     grid-template-columns: 140px 1fr;
 }
+
 .form2 {
     display: grid;
     grid-template-columns: 140px 1fr 75px 1fr;
     margin: 7px 90px 0px 5px;
     text-align: center;
 }
-.form li{
-    grid-column: 1 / 3;   
+
+.form li {
+    grid-column: 1 / 3;
 }
+
 .form label {
     text-align: right;
     margin-right: 20px;
@@ -232,6 +244,7 @@ select {
     width: fit-content;
     margin: 7px auto 7px 5px;
 }
+
 .action2 button {
     background-color: wheat;
     color: var(--primary-color);
@@ -242,15 +255,18 @@ select {
     border-radius: 8px;
     font: 24px bold;
 }
+
 .action2 button:hover {
     background-color: var(--primary-color);
     color: white;
-  }
-  .spotlight {
+}
+
+.spotlight {
     display: flex;
     position: relative;
     width: 1060px;
 }
+
 .vc {
     grid-column: 2;
     grid-row: 2;

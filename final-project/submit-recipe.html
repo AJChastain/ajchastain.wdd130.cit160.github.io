@@ -29,31 +29,33 @@
     </nav>
     <main>
         <div class="site-intro">
-        <h1>Got a great recipe you think Da Bomb cooks will love? Share it here!</h1>
-        <p>Rules and stuff:</p>
-        <ul>
-            <li>Keep the intro under 250 characters (the form will let you know if you max out) so we can get to the
-                yummy stuff quickly! Just tell us a little about your recipe so we'll all be excited to try it.</li>
-            <li>Give clear instructions that a beginner would understand. Be detailed, not complex.</li>
-            <li>If you have photos, that's even better! Good lighting makes them easier to see.</li>
-            <li>Thanks for being da bomb!</li>
-        </ul>
-    </div>
-        <form>
-            <label for="recipe-name">Recipe Name</label>
-            <input type="text" id="recipe-name" name="recipe-name">
-            <label for="intro">Brief Introduction</label>
-            <input type="text" id="intro" name="intro">
-            <label for="ingredients">Ingredients</label>
-            <input type="text" id="ingredients" name="ingredients">
-            <label for="instructions">Instructions</label>
-            <input type="text" id="instructions" name="instructions">
-            <label for="photos">Photos</label><br>
-            <input type="image" id="photos" name="photos"><br>
-            <input type="image" id="photos" name="photos"><br>
-            <input type="image" id="photos" name="photos"><br>
-            <input type="image" id="photos" name="photos"><br>
-            <input type="checkbox" id="permission" name="permission">
+            <h1>Got a great recipe you think Da Bomb cooks will love? Share it here!</h1>
+            <p>Rules and stuff:</p>
+            <ul>
+                <li>Keep the intro under 250 characters (the form will let you know if you max out) so we can get to the
+                    yummy stuff quickly! Just tell us a little about your recipe so we'll all be excited to try it.</li>
+                <li>Give clear instructions that a beginner would understand. Be detailed, not complex.</li>
+                <li>If you have photos, that's even better! Good lighting makes them easier to see.</li>
+                <li>Thanks for being da bomb!</li>
+            </ul>
+        </div>
+        <form action="dabombnom.com/amelia" method="post">
+            <ul>
+                <li><label for="recipe-name">Recipe Name</label>
+                    <input type="text" id="recipe-name" name="recipe-name"></li>
+                <li><label for="intro">Brief Introduction</label>
+                    <input type="text" id="intro" name="intro"></li>
+                <li><label for="ingredients">Ingredients</label>
+                    <input type="text" id="ingredients" name="ingredients"></li>
+                <li><label for="instructions">Instructions</label>
+                    <input type="text" id="instructions" name="instructions"></li>
+                <li><label for="photos">Photos</label><br>
+                <li><input type="image" id="photos" name="photos"></li>
+                <li><input type="image" id="photos" name="photos"></li>
+                <li><input type="image" id="photos" name="photos"></li>
+                <li><input type="image" id="photos" name="photos"></li>
+                <li><input type="checkbox" id="permission" name="permission"></li>
+            </ul>
             <label for="permission">I give Da Bomb Nom permission to share my recipes and photos, which are still owned
                 by me.</label>
             <input type="button" onclick="alert('Thank you for your submission!')" value="Submit Recipe" </form> </main>

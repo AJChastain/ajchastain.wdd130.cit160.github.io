@@ -191,10 +191,12 @@ form {
     padding: 12px;
     font-family: var(--paragraph-font);
     font-weight: bold;
+    
 }
 
 form>label {
     margin: 10px 0px 0px 10px;
+    
 }
 .search {
     padding: 5px;
