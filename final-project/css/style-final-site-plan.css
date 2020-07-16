@@ -112,11 +112,7 @@ p {
     max-width: 450px;
 }
 
-.search {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
+
 
 #recipe-search {
     height: 34px;
@@ -173,7 +169,8 @@ nav a:visited {
 button {
     margin: 10px;
     padding: 10px;
-    position: relative;
+   grid-column: 1 / 2;
+   max-width: 200px;
 }
 
 button:hover {
@@ -199,11 +196,11 @@ form {
 form>label {
     margin: 10px 0px 0px 10px;
 }
-
-form>input {
-    margin: 10px 0px;
+select {
+    grid-column: 1 / 2;
+    max-width: 250px;
+    text-align: center;
 }
-
 
 footer {
     font-family: var(--paragraph-font);
