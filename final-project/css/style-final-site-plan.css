@@ -34,13 +34,17 @@ main>img {
     margin: 11px;
 }
 
-h1,
+h1 {
+    font-family: var(--heading-font);
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 header {
@@ -59,7 +63,7 @@ header {
 
 .heading {
     flex-direction: rows;
-    margin: auto 160px;
+    margin: auto 150px;
 }
 
 main {
@@ -72,7 +76,7 @@ p {
     font-family: var(--paragraph-font);
     padding: 1em;
     font-size: 18px;
-    font-weight: bold;
+    
 }
 
 .primary {
@@ -145,7 +149,10 @@ nav {
 }
 
 nav>ul {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
     list-style-type: none;
     display: flex;
     justify-content: center;
