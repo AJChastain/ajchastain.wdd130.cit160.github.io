@@ -62,8 +62,7 @@ header {
 }
 
 .heading {
-    flex-direction: rows;
-    margin: auto 150px;
+    margin: auto 152px;
 }
 
 main {
