@@ -28,7 +28,7 @@ img {
 }
 
 main>img {
-    max-width: 150px;
+    max-width: 175px;
     grid-column: 2 / 3;
     padding: 1px;
     margin: 11px;
@@ -57,7 +57,7 @@ header {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    margin: 0px 20px 20px;
+    margin: 0px 20px 18px;
 
 }
 
