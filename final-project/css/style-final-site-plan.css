@@ -20,7 +20,7 @@ body {
 }
 
 img {
-    max-width: 175px;
+    max-width: 100%;
     border: solid black 2px;
     background-color: var(--accent3-color);
     box-shadow: grey 0px 3px 3px 2px;
@@ -28,7 +28,7 @@ img {
 }
 
 main>img {
-    max-width: 175px;
+    
     grid-column: 2 / 3;
     padding: 1px;
     margin: 11px;
@@ -37,6 +37,7 @@ main>img {
 h1 {
     font-family: var(--heading-font);
 }
+
 h2,
 h3,
 h4,
@@ -75,7 +76,7 @@ p {
     font-family: var(--paragraph-font);
     padding: 1em;
     font-size: 18px;
-    
+
 }
 
 .primary {
@@ -120,14 +121,13 @@ p {
 }
 
 .img-wide {
-    max-width: 250px;
+    max-width: 100%;
     grid-column: 1 / 2;
     justify-content: right;
 }
 
 .img-home {
-    grid-column: 2 / 3;
-    max-width: 206px;
+    margin: 12px 50px 0px 0px;
 }
 
 .recipe {
@@ -171,10 +171,12 @@ nav a:hover {
 nav a:visited {
     color: #fff8dc;
 }
+
 nav a:visited:hover {
     background-color: #e8d171;
     color: #78503C;
 }
+
 button {
     margin: 10px;
     padding: 10px;
@@ -190,7 +192,6 @@ button:hover {
 ul {
     font-family: var(--paragraph-font);
     font-size: 19px;
-    list-style-image: url("/images/dabombcookie-sm.png");
 }
 
 form {
@@ -208,22 +209,26 @@ form ul {
     list-style: none;
     padding: 0px;
     margin: 10px 0px 2px 2px;
-  }
-
-form ul li input, textarea {
-    width: 850px;
-    resize: vertical; 
 }
+
+form ul li input,
+textarea {
+    width: 850px;
+    resize: vertical;
+}
+
 form p {
     font-style: italic;
     font-size: 16px;
 }
+
 .search {
     padding: 5px;
     border: solid black 1px;
     background-color: var(--primary-color);
     color: white;
 }
+
 a:hover {
     background-color: #e8d171;
     color: #78503c;
