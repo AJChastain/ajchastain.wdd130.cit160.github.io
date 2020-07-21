@@ -206,7 +206,7 @@ form {
 
 form ul {
     list-style: none;
-    padding: none;
+    padding: 0px;
     margin: 10px 0px 2px 2px;
   }
 
