@@ -233,7 +233,23 @@ a:hover {
     background-color: #e8d171;
     color: #78503c;
 }
+.card {
 
+    width: 320px;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px;
+    background: white;
+    overflow: hidden;
+    margin: 4em auto;
+    text-align: center;
+    grid-column: 1 / 3;
+}
+.card img {
+    margin: auto;
+}
+.card footer {
+    margin: 0px;
+}
 footer {
     font-family: var(--paragraph-font);
     font-weight: bold;
