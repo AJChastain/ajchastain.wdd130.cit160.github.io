@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Template</title>
+    <script>
+        function doSomething() {
+            let input = document.getElementById("inputBox").value;
+            let something = input + "other stuff is typed here";
+            document.getElementById("outputDiv").innerHTML = something;
+        }
+    </script>
+</head>
+
+<body>
+    Enter input: <input type="text" id="inputBox">
+    <button type="button" onclick="doSomething()">Button Label</button>
+    <div id="outputDiv"></div>
+</body>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Applied Scripture</title>
+    <script>
+        /* Defining Table
+         * Input: A person's name
+         * Processing: Create a verse of scripture for that person
+         * Output: The personalized scripture
+         */
+        function applyScripture() {
+            let name = document.getElementById("nameInputBox").value;
+            let scripture = "And now, " + name +
+                ", I say unto you that the good shepherd doth call after you; and if you will hearken unto his voice he will bring you into his fold, and ye are his sheep; and he commandeth you that ye suffer no revenous wolf to enter among you, that ye may not be destroyed.";
+                document.getElementById("outputDiv").innerHTML = scripture;
+        }
+    </script>
+</head>
+<body>
+    Please enter your name: <input type="text" id="nameInputBox">
+    <button type="button" onclick="applyScripture()">Verse</button>
+    <div id="output"></div>
+</body>
+</html>
