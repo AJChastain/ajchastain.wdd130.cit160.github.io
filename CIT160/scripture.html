@@ -14,13 +14,15 @@
             let name = document.getElementById("nameInputBox").value;
             let scripture = "<br> And now, " + name +
                 ", I say unto you that the good shepherd doth call after you; <br> and if you will hearken unto his voice he will bring you into his fold, and ye are his sheep; <br> and he commandeth you that ye suffer no ravenous wolf to enter among you, that ye may not be destroyed. <br><br> Alma 5:60 ";
-                document.getElementById("outputDiv").innerHTML = scripture;
+            document.getElementById("outputDiv").innerHTML = scripture;
         }
     </script>
 </head>
+
 <body>
     Please enter your name: <input type="text" id="nameInputBox">
-    <button type="button" onclick="applyScripture()">Verse</button>
+    <button type="button" onclick="applyScripture()">Personalized Verse</button>
     <div id="outputDiv"></div>
 </body>
+
 </html>
