@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Compute the Mileage of a Vehicle</title>
+    <script>
+        /* Input: beginning odometer reading, 
+        *         ending odometer reading, 
+        *         number of gallons of gasoline used.
+        * Processing: Calculate a vehicle's mileage
+        * Output: Mileage of the vehicle */
+        function mileage() {
+            /* Obtain beginning odometer reading, 
+            *  ending odometer reading, and 
+            *  gallons of gasoline used from user 
+            *  and convert from text to numbers. */
+            let beg = parseFloat(document.getElementById("begOdom").value);
+            let end = parseFloat(document.getElementById("endOdom").value);
+            let gal = parseFloat(document.getElementById("galsUsed").value);
+        
+            // Calculate the mileage of the vehicle.
+            let m = (end - beg) / gal; 
+          
+            // Display the mileage.
+            document.getElementById("outputDiv").innerHTML = m;
+        }
+    </script>
+</head>
+
+<body>
+    Beginning odometer reading: <input type="text" id="begOdom"><br><br>
+    Ending odometer reading: <input type="text" id="endOdom"><br><br>
+    Gallons of gasoline used: <input type="text" id="galsUsed"><br><br>
+    <button type="button" onclick="mileage()">Calculate</button>
+    <br><div id="outputDiv"></div>
+</body>
+</html>
