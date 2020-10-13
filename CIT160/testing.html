@@ -1,2 +1,40 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>Compute the mileage of a vehicle</title>
 
+    <script>
+      /*I used the example 8 from the text book as a template
+       */
+      /* Input:  beginning and ending odometer readings and the number of gallons of gasoline used
+       * Processing: subtract the ending odometer reading from the beginning reading to get the miles traveled, then divide the miles traveled by the amount of gallons
+       * Output: mileage in miles per gallon
+       */
+      function convert() {
+        let b = document.getElementById("milesbegInputBox").value;
+        let e = document.getElementById("milesendInputBox").value;
+        let g = document.getElementById("gallonsInputBox").value;
+
+        // subtract the ending odometer reading from the beginning reading to get the miles traveled, then divide the miles traveled by the amount of gallons:
+        /*I used google to figure out the math problem that needed to be performed
+         */
+        let mpg = (e - b) / g;
+
+        // Display the MPG.
+        document.getElementById("MPGDiv").innerHTML = mpg;
+      }
+    </script>
+  </head>
+
+  <body>
+    Enter Beginning Odometer Readings:
+    <input type="text" id="milesbegInputBox" /> <br />
+    Enter Ending Odometer Readings: <input type="text" id="milesendInputBox" />
+    <br />
+    Enter Gallons of Gas used: <input type="text" id="gallonsInputBox" /> <br />
+    <button type="button" onclick="convert()">CALCULATE</button>
+
+    <div id="MPGDiv"></div>
+  </body>
+</html>

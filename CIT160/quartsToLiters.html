@@ -7,18 +7,18 @@
     <script>
         // source: I adapted Example 9 from the textbook as a guideline.
         /* Input: volume in quarts
-        * Processing: convert the volume from quarts to liters
-        * Output: volume in liters */
+         * Processing: convert the volume from quarts to liters
+         * Output: volume in liters */
         function quartsToLiters() {
             // Obtain volume in quarts from user.
             let input = document.getElementById("inputBox").value;
-           
+
             // Convert user's input from text to a number.
             let q = parseFloat(input);
-           
+
             // Convert the volume from quarts to liters.
             let L = q * 0.946352946;
-          
+
             // Display the volume in liters to the user.
             document.getElementById("outputLit").innerHTML = L + " liters";
             //source: credit Captain McVey for showing how to include text in the results.
@@ -32,4 +32,5 @@
     <button type="button" onclick="quartsToLiters()">Convert</button><br><br>
     <div id="outputLit"></div>
 </body>
+
 </html>
