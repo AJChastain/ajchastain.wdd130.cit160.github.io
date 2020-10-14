@@ -7,8 +7,8 @@
     <script>
         // source: I adapted Example 22 from the textbook as a guideline
         /* Input: beginning odometer reading, 
-         *         ending odometer reading, 
-         *         number of gallons of gasoline used.
+         *        ending odometer reading, 
+         *        number of gallons of gasoline used.
          * Processing: Calculate a vehicle's mileage
          * Output: Mileage of the vehicle */
         function mileage() {
@@ -16,6 +16,7 @@
              *  ending odometer reading, and 
              *  gallons of gasoline used from user 
              *  and convert from text to numbers. */
+            // Obtain user input (beginning and ending odometer readings and gallons of gas used).
             let beg = parseFloat(document.getElementById("begOdom").value);
             let end = parseFloat(document.getElementById("endOdom").value);
             let gal = parseFloat(document.getElementById("galsUsed").value);
@@ -25,7 +26,7 @@
 
             // Display the mileage.
             document.getElementById("outputDiv").innerHTML = m + " miles per gallon";
-            //source: credit Captain McVey for showing how to include text in the results.
+            //credit: Captain McVey for showing how to include text in the results.
         }
     </script>
 </head>
