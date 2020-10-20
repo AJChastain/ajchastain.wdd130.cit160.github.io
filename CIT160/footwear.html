@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Footwear</title>
+    <script>
+        /* Input: The weather for the day (hot, rain, snow, other).
+        Processing: Assign footwear according to weather the user reports.
+        hot == sandals
+        rain == galoshes
+        snow == boots
+        other == shoes
+        Output: Which type of shoes are most appropriate to wear.
+        */
+        function footwear() {
+            //Get weather input from user
+            let weather = document.getElementById("weatherInput").value;
+            
+             switch (weather) {
+                 case 'hot':
+                    footwear = 'sandals';
+                    break;
+                 case 'rain':
+                    footwear = 'galoshes';
+                    break;
+                 case 'snow': 
+                    footwear = 'boots';
+                    break;
+                 default:  
+                    footwear = 'shoes';  
+
+             } 
+            document.getElementById("outputDiv").innerHTML = "<br> You should wear " + footwear + ".";
+        }
+    </script>
+</head>
+
+<body>
+    <h2>What type of footwear should I wear today?</h2>
+    What is today's weather? <input type="text" id="weatherInput"><br><br>
+    <button type="button" onclick="footwear()">Show Me</button>
+    <div id="outputDiv"></div>
+</body>
+</html>
