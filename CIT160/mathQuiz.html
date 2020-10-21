@@ -5,17 +5,50 @@
     <meta charset="utf-8">
     <title>Math Quiz</title>
     <script>
-        function doSomething() {
-            let input = document.getElementById("inputBox").value;
-            let something = input + "other stuff is typed here";
-            document.getElementById("outputDiv").innerHTML = something;
+        function mathQuiz() {
+            let numOne = parseFloat(document.getElementById('numOneInput').value);
+            let operation = document.getElementById('operatorInput').value;
+            let numTwo = parseFloat(document.getElementById('numTwoInput').value);
+            let answer = parseFloat(document.getElementById('solutionInput').value);
+
+            let solve;
+            let message;
+
+            switch (operation) {
+                case "+":
+                    solve = numOne + numTwo;
+                    break;
+                case "-":
+                    solve = numOne - numTwo;
+                    break;
+                case "*":
+                    solve = numOne * numTwo;
+                    break;
+                case "/":
+                    solve = numOne / numTwo;
+            }
+
+            if (solve == answer) {
+                alert(message = "Correct! Good job!");
+            }
+            else {
+                alert(message = "Incorrect. Try again!");
+            }
+            
         }
+
     </script>
 </head>
 
 <body>
-    Enter input: <input type="text" id="inputBox">
-    <button type="button" onclick="doSomething()">Button Label</button>
-    <div id="outputDiv"></div>
+    <h2>Test Your Math Skills!</h2>
+    Enter a math problem: <br><br>
+    First number: <input type="text" id="numOneInput" size="10em"><br>
+    Operator:<input type="text" id="operatorInput" size="2em"><br>
+    Second number: <input type="text" id="numTwoInput" size="10em"><br> =
+    Your answer: <input type="text" id="solutionInput" size="10em"><br><br>
+    <button type="button" onclick="mathQuiz()">Check Answer</button>
+    <div id="results"></div>
 </body>
+
 </html>
