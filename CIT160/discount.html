@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Template</title>
+
+    <script>
+        /*input: customer's subtotal 
+         *processing: determines whether input is >$50 and if the day of sale is a Tuesday or Wednesday, then subtracts 10% if true. Adds 6% sales tax to subtotal.
+         *output: new total after possible discount and after sales tax is added.
+         */
+        let dayOfWeek = new Date().getDay();
+        /*0 == Sunday
+         * 1 == Monday
+         * 2 == Tuesday
+         * 3 == Wednesday
+         * 4 == Thursday
+         * 5 == Friday
+         * 6 == Saturday
+         */
+        function getSalesTotal() {
+        
+            let input = parseFloat(document.getElementById("subtotal").value);
+            let rate;
+            if (input > 50 && (dayOfWeek == 2 || dayOfWeek == 3)) {
+                rate = .10;
+            } else {
+                rate = 0;
+            }
+            let newTotal = "Sales Total : $" + ((input - (input * rate)) * 1.06).toFixed(2);
+            
+            document.getElementById("salesTotal").innerHTML = newTotal;
+        }
+    </script>
+</head>
+
+<body>
+    Enter the customer's subtotal: $ <input type="text" id="subtotal">
+    <button type="button" onclick="getSalesTotal()">Calculate Total</button>
+    <div id="salesTotal"></div>
+</body>
+
+</html>
