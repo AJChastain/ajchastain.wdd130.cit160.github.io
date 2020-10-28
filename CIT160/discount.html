@@ -23,9 +23,10 @@
         
             let input = parseFloat(document.getElementById("subtotal").value);
             let rate;
-            if (input > 50 && (dayOfWeek == 2 || dayOfWeek == 3)) {
+            if (input > 50 && (dayOfWeek == "2" || dayOfWeek == "3")) {
                 rate = .10;
-            } else {
+            }
+            else {
                 rate = 0;
             }
             let newTotal = "Sales Total : $" + ((input - (input * rate)) * 1.06).toFixed(2);

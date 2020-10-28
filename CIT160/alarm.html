@@ -5,17 +5,31 @@
     <meta charset="utf-8">
     <title>JavaScript Template</title>
     <script>
-        function doSomething() {
-            let input = document.getElementById("inputBox").value;
-            let something = input + "other stuff is typed here";
-            document.getElementById("outputDiv").innerHTML = something;
+        /*Input: The current date
+         * Processing: Allow user to sleep in on weekends and holdays, and instruct to get up on all other days.
+         * Output: "Get up!" if it is not a weekend or holiday. "Sleep in" if it is.
+         */
+        function setAlarm() {
+            let now = new Date("10/29/2020");
+            let month = now.getMonth();
+            let dayOfMonth = now.getDate();
+            let dayOfWeek = now.getDay();
+            let message = "<br><h2>Get Up!</h2>";
+            if ((dayOfWeek == "0" || dayOfWeek == "6") || (month == "0" && dayOfMonth == "1") ||
+                (month == "6" && dayOfMonth == "4") ||
+                (month == "11" && dayOfMonth == "25")); {
+                message = "<br><h2>Sleep in!</h2>";
+            } 
+            
+            document.getElementById("outputDiv").innerHTML = message;
         }
     </script>
 </head>
 
 <body>
-    Enter input: <input type="text" id="inputBox">
-    <button type="button" onclick="doSomething()">Button Label</button>
+    <h3>Can I sleep in today?</h3>
+    <button type="button" onclick="setAlarm()">Find Out!</button>
     <div id="outputDiv"></div>
 </body>
+
 </html>
