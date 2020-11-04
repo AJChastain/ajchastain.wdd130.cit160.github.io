@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Repetition Program</title>
+    <script>
+        /*  Input: an integer
+         *  Processing: Obtain the odd integers between 1 and the given integer, then add those numbers together.
+         *  Output: the sum of all odd integers between 1 and the given integer.
+         */
+        function sumOdd() {
+            let input = parseFloat(document.getElementById("inputInt").value);
+            let count = 0;
+            for (let start = 1; start <= input; start += 2) {
+                if ((start % 2) != 0) {
+                    count = (count + start);
+                    
+                } 
+            }
+
+            let finalSum = count;
+            document.getElementById("sum").innerHTML = finalSum;
+        }
+    </script>
+</head>
+
+<body>
+    Enter an integer to find the sum of all odd integers between 1 and your number: <br><br>
+    <input type="text" id="inputInt">
+    <button type="button" onclick="sumOdd()">Find Sum</button><br><br>
+    The sum is: <b><div id="sum"></div></b>
+</body>
+
+</html>
