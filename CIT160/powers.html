@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Powers</title>
+    <script>
+        /*  Input: User simply has to click "Power Up!".
+         *  Processing: Compute the powers of 2 from 2^0 to 2^31.
+         *  Output: Display the powers of 2 from 2^0 to 2^31.
+         */
+        function powers() {
+            let list = "";
+
+            for (let level = 0; level <= 31; ++level) {
+                let product = Math.pow(2, level);
+
+                list += "2 ^ " + level + "= " + product + "<br> ";
+                document.getElementById("result").innerHTML = list;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    Click the button to see the powers of 2 from 0 to 33: <br><br>
+
+    <button type="button" onclick="powers()"><b>Power Up!</b></button><br><br>
+    The powers of 2 from 0 to 31 are: <br><br>
+    <div id="result"></div>
+
+</body>
+
+</html>
