@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Multiplication Table</title>
+    <script>
+        /*  Input: no user input.
+         *  Processing: Compute the product an integer from one up to the max factor.
+         *  Output: Display the multiplication table for the integer * 1 to the max factor.
+         */
+
+        //Example 13 (page 145) used for guidance
+
+        function createTable() {
+            let list = multTable(12, 15);
+            document.getElementById("table").innerHTML = list;
+        }
+
+        function multTable(number, maxFact) {
+            let chart = "";
+            for (let factor = 1; factor <= maxFact; ++factor) {
+                let product = number * factor;
+                chart += number + " * " + factor + " = " + product + "<br>";
+               
+            }
+            return chart;
+        }
+    </script>
+</head>
+
+<body>
+    (Input in Program) <br><br>
+    <button type="button" onclick="createTable()"><b>Show Me</b></button><br><br>
+    The multiplication table for the integer is: <br><br>
+    <div id="table"></div>
+
+</body>
+
+</html>
