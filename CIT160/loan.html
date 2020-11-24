@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Loan Calculator</title>
+    <script>
+        /*  Input: principal, annual rate, number of years, and periods per year for an investment.
+         *  Processing: f = a (1 + r) ^n.
+         *  Output: The future value of the investment.
+         */
+
+        //Example 13 (page 145) and prayer used for guidance
+
+        function doPayment() {
+            let zz = computePayment();
+            document.getElementById("payment").innerHTML = zz;
+        }
+
+        function computePayment(principal, annualRate, years, periodsPerYear) {
+
+        }
+
+        function doBalance() {
+            let xx = computeBalance();
+            document.getElementById("payoff").innerHTML = xx;
+        }
+
+        function computeBalance(principal, annualRate, years, periodsPerYear, numPays) {
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Loan Calculator</h1>
+    Amount borrowed (prinicpal): <input type="text" id="principal" size=10><br><br>
+    Annual interest rate (example: .065): <input type="text" id="annualRate" size=6><br><br>
+    Number of years: <input type="text" id="years" size=3><br><br>
+    Payments per year: <input type="text" id="periodsPerYear" size=3><br><br>
+    <button type="button" onclick="doPayment()"><b>Compute Payment</b></button><br><br>
+    <div id="payment"></div>
+    Number of payments paid to date: <input type="text" id="numPays" size=3><br><br>
+    <button type="button" onclick="doBalance()"><b>Compute Payoff amount</b></button>
+    <div id="payoff"></div>
+
+</body>
+
+</html>
