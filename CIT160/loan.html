@@ -10,6 +10,7 @@
          *  Output: monthly payment and payoff amounts for a loan.
          */
 
+        //MANY THANKS to Brett Underwood for demonstrating how to use ** instead of Math.pow!
 
         function doPayment() {
             let principal = parseFloat(document.getElementById('principal').value);
@@ -24,10 +25,11 @@
         function computePayment(amount, annualRate, years, periodsPerYear) {
             // p=ar/(1-(1+r)^(-n))
             let rate = annualRate / periodsPerYear;
-            let number = periodsPerYear * years;
+            /*let number = periodsPerYear * years;
             let denom = (1 + rate);
             let power = Math.pow(denom, -number);
-            let formula = (amount * rate) / (1 - power);
+            let formula = (amount * rate) / (1 - power);*/
+            let formula = (amount * rate) / (1 - (1 + rate) ** -(periodsPerYear * years));
             return "<i>Your payment is: $ </i>" + formula.toFixed(2);
 
         }
@@ -38,20 +40,22 @@
             let years = parseFloat(document.getElementById('years').value);
             let periodsPerYear = parseFloat(document.getElementById('periodsPerYear').value);
             let numPays = parseFloat(document.getElementById('numPays').value);
-            
+
             let left = computeBalance(principal, annualRate, years, periodsPerYear, numPays);
             document.getElementById('payoff').innerHTML = left;
         }
 
         function computeBalance(principal, annualRate, years, periodsPerYear, numPays) {
             // b = a(1+r)^d - (p((1+r)^d -1)) / r
+
             let rate = annualRate / periodsPerYear;
-            let payment = doPayment();
+            
+            let payment = (principal * rate) / (1 - (1 + rate) ** -(years * periodsPerYear));
             let varA = (1 + rate);
             let power = Math.pow(varA, numPays);
             let varAA = principal * power;
 
-            let numerator = payment * (power -1);
+            let numerator = payment * (power - 1);
             let bal = varAA - numerator / rate;
             return "<i>Your payoff amount is: $ </i>" + bal.toFixed(2);
 
