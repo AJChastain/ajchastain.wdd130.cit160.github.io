@@ -10,6 +10,8 @@
          * Processing: Test the addEnds and getMiddle functions by calling them.
          * Output: The values returned from the addEnds and getMiddle functions.
          */
+
+
         function test() {
             let list1 = [17, 8, 9, 5, 20];
             let list2 = [12, 4, 8, 15, 17, 5, 20, 11];
@@ -31,24 +33,23 @@
 
             // Display the output string for the user to see.
             document.getElementById('output').innerHTML = output;
+
+
+            function addEnds(list) {
+                let list = [];
+                let last = list[list.length - 1];
+                let first = list[0];
+                let sum = first + last;
+                return sum;
+            }
+
+            function getMiddle(list) {
+                let list = [];
+                let mid = first + ((last - first) >>> 1);
+                return mid;
+            }
+
         }
-
-        function addEnds(list) {
-            let list = [];
-            let last = list[list.length - 1];
-            let first = list[0];
-            let sum = first + last;
-            return sum;
-
-        }
-
-        function getMiddle(list) {
-            let list = [];
-            let mid = first + ((last - first) >>> 1);
-            return mid;
-            
-        }
-
     </script>
 </head>
 
