@@ -13,7 +13,7 @@
 
 
         function test() {
-            let list1 = [17, 8, 9, 5, 20];
+            let list1 = [17, 8, 9, 5, 20, 3, 16];
             let list2 = [12, 4, 8, 15, 17, 5, 20, 11];
 
             // Test the addEnds function by calling it two times.
@@ -34,21 +34,30 @@
             // Display the output string for the user to see.
             document.getElementById('output').innerHTML = output;
 
+        }
 
-            function addEnds(list) {
-                let list = [];
-                let last = list[list.length - 1];
-                let first = list[0];
-                let sum = first + last;
-                return sum;
+        function addEnds(list) {
+
+            let last = list[list.length - 1];
+            let first = list[0];
+            let sum = first + last;
+            return sum;
+        }
+
+        function getMiddle(list) {
+            
+            if (list.length %2 != 0) {
+                let mid = Math.floor(list.length /2);
+                return list[mid];
+            }
+            else {
+               let high = (list.length /2);
+               let low = high -1;
+               let average = (list[high] + list[low]) /2; 
+               return average;
             }
 
-            function getMiddle(list) {
-                let list = [];
-                let mid = first + ((last - first) >>> 1);
-                return mid;
-            }
-
+            
         }
     </script>
 </head>
