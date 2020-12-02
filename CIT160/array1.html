@@ -29,9 +29,6 @@
                 mid1 + '<br>' +
                 mid2;
 
-            let value = addEnds(list);
-            let value2 = getMiddle(list);
-            let output = value + "<br>" + value2;
             // Display the output string for the user to see.
             document.getElementById('output').innerHTML = output;
         }
@@ -40,16 +37,16 @@
             let list = [];
             let last = list[list.length - 1];
             let first = list[0];
-            let value = first + last;
-            return value;
+            let sum = first + last;
+            return sum;
 
         }
 
         function getMiddle(list) {
             let list = [];
-            let value2 = first + ((last - first) >>> 1);
-            return value2;
-
+            let mid = first + ((last - first) >>> 1);
+            return mid;
+            
         }
 
     </script>
