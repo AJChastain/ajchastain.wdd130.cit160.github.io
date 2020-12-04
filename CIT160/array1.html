@@ -45,20 +45,18 @@
         }
 
         function getMiddle(list) {
-            
-            if (list.length %2 != 0) {
-                let mid = Math.floor(list.length /2);
+
+            if (list.length % 2 != 0) {
+                let mid = Math.floor(list.length / 2);
                 return list[mid];
-            }
-            
-            else {
-               let high = (list.length /2);
-               let low = high -1;
-               let average = (list[high] + list[low]) /2; 
-               return average;
+            } else {
+                let high = (list.length / 2);
+                let low = high - 1;
+                let average = (list[high] + list[low]) / 2;
+                return average;
             }
 
-            
+
         }
     </script>
 </head>
