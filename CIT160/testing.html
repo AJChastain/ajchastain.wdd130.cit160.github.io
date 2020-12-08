@@ -1,1 +1,63 @@
 <!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Array 2</title>
+<script>
+
+function test() {
+    let list1 = [ 17, 8, 9, 5, 20 ];
+    let list2 = [ 12, 4, 8, 15, 17, 5, 20, 11 ];
+ 
+function countEvens(list){
+ let even = 0;
+ for (let index =0; index < list.length; index++){
+  if(list[index] % 2 == 0){
+  even = even+1;
+  }
+ }
+ return even;
+ 
+ 
+}
+
+function multiply(list, multiplier){
+ let result = [];
+ for (let index = 0; index < list.length; index++){
+  result[index] = list[index] * multiplier;
+ }
+ return result;
+ 
+}
+
+    // Test the countEvens function by calling it two times.
+    let count1 = countEvens(list1);
+    let count2 = countEvens(list2);
+
+    // Test the multiply function by calling it two times.
+    let mult1 = multiply(list1,3);
+    let mult2 = multiply(list2,2);
+
+    // Build a string to display to the user.
+    let output =
+            count1 + '<br>' +
+            count2 + '<br>' +
+            mult1 + '<br>' +
+            mult2;
+
+    // Display the output string for the user to see.
+    document.getElementById("output").innerHTML = output;
+}
+
+
+</script>
+</head>
+<body>
+<h1>Array</h1>
+
+<button type="button" onclick="test()">Click</button>
+<div id="output"></div>
+
+
+</body>
+</html>
